@@ -183,22 +183,27 @@ body {
 #BibTeX pre {
   border-radius: 12px;
   border: 1px solid var(--line);
-  background: #0f1c2f;
-  color: #e9f0ff;
+  background: #e8eaee;
+  color: #0f1f36;
   padding: 1rem;
   overflow-x: auto;
 }
 
 .footer {
-  background: #0f1f36;
-  color: #d5dbea;
+  background: #fff8f1;
+  color: #f0f4ff;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
+.footer .content,
+.footer .content p {
+  color: #0f1f36;
+}
+
 .footer .icon-link {
   font-size: 1.4rem;
-  color: #f0f4ff;
+  color: #0f1f36;
   margin: 0 0.35rem;
 }
 
@@ -207,7 +212,7 @@ body {
 }
 
 .footer a {
-  color: #9fddf0;
+  color: #0f1f36;
 }
 
 @keyframes riseIn {
